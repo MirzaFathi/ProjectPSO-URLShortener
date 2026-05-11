@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2022", // Mengganti ES5 yang sudah usang
+    "ignoreDeprecations": "5.0",
+    "target": "es2020",
     "lib": ["ESNext", "DOM"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -8,8 +9,8 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "ESNext", // Mengganti commonjs agar lebih modern
-    "moduleResolution": "bundler", // Mengganti node/node10 yang sudah usang untuk Next.js
+    "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
